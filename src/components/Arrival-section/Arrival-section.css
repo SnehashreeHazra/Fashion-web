@@ -29,13 +29,6 @@ h2 {
   border-radius: 15px;
 }
 
-/* .card-desc {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-} */
-
 .card-title {
   text-align: start;
   font-size: 1.25rem;
@@ -57,11 +50,10 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* padding: 20px; */
 }
 
 .arrow {
-  /* display: inline-block; */
+  padding: 20px;
   font-size: 32px;
   color: #797979;
   cursor: pointer;
