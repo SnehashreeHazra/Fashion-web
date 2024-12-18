@@ -1,42 +1,37 @@
-
 .sale-banner {
   margin-top: 50px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   background-color: #f8d849;
-  /* min-height: 100vh; */
+  padding: 20px;
+  flex-wrap: wrap;
 }
 
 .sale-banner-container {
   display: flex;
-  max-width: 90px;
   width: 100%;
+  max-width: 1200px;
   background-color: #f8d849;
 }
 
 .sale-banner-image{
-  width: 100%;
+  width: 50%;
 }
 
 
 .sale-banner-image img {
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
 }
 
 
 .sale-banner-content {
-  flex: 1;
-  /* width: 100%; */
-  /* padding: 40px; */
-  padding-top: 40px;
-  /* padding-left: 80px; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #f8d849;
+  font-size: 2.5rem; 
+  font-weight: 900;
+  color: #000;
+  margin-bottom: 20px;
 }
 
 .sale-tag {
@@ -84,4 +79,3 @@
   font-size: 1rem;
   cursor: pointer;
 }
-

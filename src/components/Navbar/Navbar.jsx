@@ -1,6 +1,10 @@
 import React, { useState } from 'react'
 import "./Navbar.css"
 import Logo from './images/logo.png'
+import FacebookImage from '../../assets/facebook.png'
+import InstagramImage from '../../assets/instagram.png'
+import TwitterImage from '../../assets/twitter.png'
+import LinkedinImage from '../../assets/linkedin.png'
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,6 +41,21 @@ function Navbar() {
           </a>
         </nav>
         <button className="signup-btn">SIGN UP</button>
+
+        {/* <div className="dropdown-icons">
+        <a href="#" className="dropdown-item">
+              <img src={FacebookImage} alt="" />
+            </a>
+            <a href="#" className="dropdown-item">
+             <img src={InstagramImage} alt="" />
+            </a>
+            <a href="#" className="dropdown-item">
+              <img src={TwitterImage} alt="" />
+            </a>
+            <a href="#" className="dropdown-item">
+              <img src={LinkedinImage} alt="" />
+            </a>
+        </div> */}
       </div>
     </header>
   </div>

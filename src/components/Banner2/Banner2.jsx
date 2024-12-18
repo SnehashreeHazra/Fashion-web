@@ -2,6 +2,7 @@ import React from 'react'
 import './Banner2.css'
 import Image from '../../assets/banner2-img.png'
 
+
 function Banner2() {
   return (
     <div className="sale-banner">
@@ -14,7 +15,6 @@ function Banner2() {
           />
         </div>
 
-        
         <div className="sale-banner-content">
         <h1 className="sale-tag">
             <div className="highlight">
