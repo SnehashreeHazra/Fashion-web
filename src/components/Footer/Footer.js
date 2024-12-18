@@ -11,12 +11,12 @@ function Footer() {
   return (
     <footer className="footer-container">
       <div className="footer-brands">
-        <img src={hm} alt="UNIQLO" className="brand-image" />
-        <img src={amazon} alt="ZARA" className="brand-image" />
-        <img src={obey} alt="H&M" className="brand-image" />
-        <img src={shopify} alt="NIKE" className="brand-image" />
-        <img src={levis} alt="ADIDAS" className="brand-image" />
-        <img src={lacoste} alt="PUMA" className="brand-image" />
+        <img src={hm} alt="h&m" className="brand-image" />
+        <img src={amazon} alt="Amazon" className="brand-image" />
+        <img src={obey} alt="Obey" className="brand-image" />
+        <img src={shopify} alt="Shopify" className="brand-image" />
+        <img src={levis} alt="Levis" className="brand-image" />
+        <img src={lacoste} alt="Lacoste" className="brand-image" />
       </div>
     </footer>
   )

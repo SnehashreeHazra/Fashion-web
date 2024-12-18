@@ -24,7 +24,9 @@ function ArrivalSection() {
   ]
   return (
     <div>
-      <h2>NEW ARRIVALS</h2>
+      <div class="new-arrivals">
+          <h2>NEW ARRIVALS</h2>
+      </div>
       <div className='card-container'>
         {cards.map((card,index)=>(
           <div className='card' key={index}>
@@ -34,12 +36,8 @@ function ArrivalSection() {
             <h3 className='card-title'>{card.title}</h3>
             <p className='card-description'>{card.description}</p>
             </div>
-            
             <span className='arrow'>&rarr;</span>
             </div>
-           
-           
-            
           </div>
         ))}
       </div>

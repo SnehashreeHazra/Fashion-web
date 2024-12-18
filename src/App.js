@@ -1,17 +1,19 @@
-import ArrivalSection from "./components/Arrival-section/Arrival-section";
-import Banner from "./components/Banner/Banner";
-import Footer from "./components/Footer/Footer";
-import Navbar from "./components/Navbar/Navbar";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import HomePage from "./components/HomePage/HomePage";
+import MainLayout from "./MainLayout/MainLayout";
 
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Banner />
-      <Footer />
-      <ArrivalSection />
-    </div>
+    <>
+      <Router>
+        <Routes>
+          <Route path="/" element={<MainLayout />}>
+            <Route path="/" element={<HomePage/>} />
+          </Route>
+        </Routes>
+      </Router>
+    </>
   );
 }
 
