@@ -1,25 +1,67 @@
 import React from 'react'
 import './Footer.css'
-import amazon from './images/amazon.png'
-import hm from './images/h&m.png'
-import lacoste from './images/lacoste.png'
-import levis from './images/levis.png'
-import obey from './images/obey.png'
-import shopify from './images/shopify.png'
+import Facebook from '../../assets/facebook.png'
+import Instagram from '../../assets/instagram.png'
+import Twitter from '../../assets/twitter.png'
+import Linkedin from '../../assets/linkedin.png'
 
-function Footer() {
+function Footer2() {
   return (
-    <footer className="footer-container">
-      <div className="footer-brands">
-        <img src={hm} alt="h&m" className="brand-image" />
-        <img src={amazon} alt="Amazon" className="brand-image" />
-        <img src={obey} alt="Obey" className="brand-image" />
-        <img src={shopify} alt="Shopify" className="brand-image" />
-        <img src={levis} alt="Levis" className="brand-image" />
-        <img src={lacoste} alt="Lacoste" className="brand-image" />
+    <footer className='footer'>
+         
+      <div className="footer-section1">
+        <h1 className="footer-logo">FASHION</h1>
+        <p className="footer-description">
+          Complete your style with awesome clothes from us.
+        </p>
+        <div className="footer-social">
+          <a href="#" className="social-icon">
+            <img src={Facebook} alt="Facebook icon" />
+          </a>
+          <a href="#" className="social-icon">
+            <img src={Instagram} alt="Instagram icon" />
+          </a>
+          <a href="#" className="social-icon">
+            <img src={Twitter} alt="Twitter icon" />
+          </a>
+          <a href="#" className="social-icon">
+            <img src={Linkedin} alt="Linkedin icon" />
+          </a>
+        </div>
       </div>
+
+
+       
+       <div className="footer-section">
+        <h3 className="footer-heading">Company</h3>
+        <ul className="footer-links">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+
+      <div className="footer-section">
+        <h3 className="footer-heading">Quick Link</h3>
+        <ul className="footer-links">
+          <li><a href="#">Share Location</a></li>
+          <li><a href="#">Orders Tracking</a></li>
+          <li><a href="#">Size Guide</a></li>
+          <li><a href="#">FAQs</a></li>
+        </ul>
+      </div>
+
+      <div className="footer-section">
+        <h3 className="footer-heading">Legal</h3>
+        <ul className="footer-links">
+          <li><a href="#">Terms & conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+
     </footer>
   )
 }
 
-export default Footer
+export default Footer2

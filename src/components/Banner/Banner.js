@@ -8,9 +8,9 @@ function Banner() {
 <div className="banner-container">
       <div className="banner-content ">
       <div className="banner-title">
-        <div className="text-block white-bg black-text">LET’S</div><br />
+        <div className="text-block white-bg black-text"><span>LET'S</span></div><br />
         <div className="text-block black-text">EXPLORE</div><br />
-        <div className="text-block yellow-bg black-text">UNIQUE</div><br />
+        <div className="text-block yellow-bg black-text"><span>UNIQUE</span></div><br />
         <div className="text-block black-text">CLOTHES.</div>
       </div>
         <p className="banner-description">

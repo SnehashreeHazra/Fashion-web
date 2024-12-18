@@ -1,28 +1,155 @@
-.footer-container {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.footer {
   margin-top: 50px;
-  background-color: #ebd96b;
-  padding: 1.5rem 0;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-bottom: 50px;
-}
-
-.footer-brands {
-  display: flex;
-  justify-content: center;
-  gap: 7rem;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 80px 50px;
+  background-color: #000; 
+  color: #fff; 
 }
 
-.brand-image {
-  width: 100px;
-  height: auto;
-  transition: transform 0.3s ease, opacity 0.3s ease;
-  cursor: pointer;
+.footer-section1{
+  flex: 3;
+  width: 300px;
+  padding-left: 25px;
 }
 
-.brand-image:hover {
-  transform: scale(1.1);
-  opacity: 0.8;
+.footer-section {
+  flex: 1;
+  width: 100px; 
+  margin: 10px;
 }
+
+.footer-logo {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #fff; 
+  margin-bottom: 20px;
+}
+
+.footer-description {
+  font-size: 1rem;
+  color: #8E8E8E;
+  margin-bottom: 30px;
+  font-family: "Roboto", serif;
+  width: 40%;
+}
+
+.footer-social {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.footer-social img {
+  width: 35px; 
+  height: 35px;
+}
+
+
+
+.footer-heading {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #fff;
+  font-family: "Roboto", serif;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 20px;
+}
+
+.footer-links a {
+  color: #8E8E8E;
+  text-decoration: none;
+  font-family: "Roboto", serif;
+}
+
+
+@media (max-width: 1024px) {
+  .footer {
+    padding: 60px 30px;
+  }
+
+  .footer-section {
+    width: 45%; 
+    margin-bottom: 30px;
+  }
+
+  .footer-description {
+    width: 80%; 
+  }
+}
+
+
+@media (max-width: 768px) {
+  .footer{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 20px 15px; 
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .footer-section1 {
+    width: 100%; 
+    margin-bottom: 20px;
+  }
+
+  .footer-section {
+    width: 100%; 
+    text-align: center;
+  }
+
+  .footer-logo {
+    text-align: center;
+    font-size: 1.6rem; 
+  }
+
+  .footer-description {
+    font-size: 0.85rem; 
+    width: 90%; 
+    text-align: center;
+  }
+
+  .footer-heading {
+    font-size: 0.85rem;
+  }
+
+  .footer-links li {
+    margin-bottom: 15px; 
+  }
+
+  .footer-social {
+    justify-content: center; 
+  }
+
+  .footer-social img {
+    width: 25px;
+    height: 25px;
+  }
+
+}
+

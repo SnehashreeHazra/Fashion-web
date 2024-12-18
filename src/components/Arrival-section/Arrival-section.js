@@ -23,8 +23,9 @@ function ArrivalSection() {
     }
   ]
   return (
-    <div>
-      <div class="new-arrivals">
+    
+          <div className='container'>
+      <div className="new-arrivals">
           <h2>NEW ARRIVALS</h2>
       </div>
       <div className='card-container'>
@@ -42,6 +43,8 @@ function ArrivalSection() {
         ))}
       </div>
     </div>
+    
+    
   )
 }
 
