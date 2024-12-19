@@ -4,10 +4,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 50px 50px;
+  padding: 50px 30px;
   background-color: #E5C643;
   text-align: center;
-  border-radius: 10px;
 }
 
 /* Text Section */
@@ -32,7 +31,7 @@
   gap: 10px; 
   width: 100%;
   max-width: 500px; 
-  
+  flex-wrap: wrap;
 }
 
 .input-container {
@@ -44,10 +43,12 @@
   overflow: hidden;
   padding: 8px 20px;
   background-color: #fff;
+  flex: 1;
+  min-width: 250px;
 }
 
 .subscribe-input {
-  /* flex: 1;  */
+  flex: 1; 
   /* padding: 10px 15px; */
   font-size: 1rem;
   border: none;
@@ -57,14 +58,65 @@
 
 
 .subscribe-button {
-  padding: 5px 20px;
-  font-size: 1.5rem;
+  padding: 10px 20px;
+  font-size: 1.2rem;
   font-weight: 500;
   color: #fff;
   background-color: #000; 
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  min-width: 120px;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .form {
+    flex-direction: column; /* Stack input and button vertically */
+    gap: 15px;
+  }
+
+  .input-container {
+    width: 100%; /* Make input container take full width */
+    min-width: unset; /* Remove min-width on smaller screens */
+  }
+
+  .subscribe-button {
+    width: 20%; /* Button spans full width on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .form {
+    gap: 10px;
+  }
+
+  .subscribe-input {
+    font-size: 0.9rem;
+  }
+
+  .subscribe-button {
+    font-size: 1rem;
+    padding: 8px 8px;
+  }
 }
 
 

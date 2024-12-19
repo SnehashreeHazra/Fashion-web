@@ -62,5 +62,56 @@
   max-width: 70%;
   min-width: 70%;
   height: 100%;
-  
+}
+
+
+@media (max-width: 768px) {
+  .voucher {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .voucher-left, .voucher-right {
+    max-width: 100%; /* Full width */
+    flex: unset;
+  }
+
+  .voucher-description {
+    max-width: 80%; /* Reduce width for readability */
+  }
+
+  .main-img {
+    max-width: 80%; /* Adjust main image size */
+    min-width: unset;
+  }
+
+  .small-img {
+    max-width: 28%; /* Adjust small image size */
+    min-width: unset;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  .voucher {
+    padding: 10px;
+    gap: 15px;
+  }
+
+  .voucher-title {
+    font-size: 2rem; /* Smaller title size */
+  }
+
+  .voucher-description {
+    font-size: 1rem; /* Adjust font size */
+    max-width: 90%; /* Further reduce width */
+  }
+
+  .main-img {
+    max-width: 100%; /* Full width */
+  }
+
+  .small-img {
+    max-width: 30%; /* Maintain small image size */
+  }
 }

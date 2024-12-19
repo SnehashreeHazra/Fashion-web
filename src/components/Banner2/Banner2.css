@@ -68,7 +68,6 @@
 
 .sale-date {
   font-size: 1.5rem;
-  /* margin-bottom: 10px; */
   color: #000;
 }
 
@@ -86,4 +85,147 @@
   font-size: 1rem;
   cursor: pointer;
   border-radius: 10px;
+}
+
+@media (max-width: 999px) {
+
+  .sale-banner-image {
+    width: 60%; /* Reduce image width */
+  }
+
+  .sale-banner-content {
+    font-size: 2rem; /* Decrease text size */
+    padding-left: 40px; /* Reduce padding */
+    padding-top: 50px;
+  }
+
+  .sale-tag {
+    font-size: 50px; /* Decrease heading size */
+  }
+
+  .highlight {
+    max-width: 80%; /* Adjust text container width */
+  }
+
+  .sale-text {
+    font-size: 1.1rem; /* Reduce text size */
+  }
+
+  .shop-now-btn {
+    padding: 10px 20px; /* Adjust button padding */
+    font-size: 0.9rem; /* Reduce button font size */
+  }
+  
+}
+
+
+@media (max-width: 768px) {
+  
+  .sale-banner-container {
+    height: auto; 
+  }
+
+  .sale-banner-image {
+    width: 100%; 
+    height: 100%;
+  }
+
+  .sale-banner-image img {
+    height: 100%; 
+  }
+
+  .sale-banner-content {
+    font-size: 1.5rem; 
+    padding-left: 20px; 
+    padding-top: 30px;
+  }
+
+  .sale-tag {
+    font-size: 40px; 
+  }
+
+  .highlight {
+    max-width: 75%; 
+    transform: none; 
+  }
+
+  .sale-text {
+    font-size: 0.9rem; 
+  }
+
+  .sale-date {
+    font-size: 1rem; 
+  }
+
+  .terms {
+    font-size: 0.9rem; 
+  }
+
+  .shop-now-btn {
+    padding: 8px 16px; 
+    font-size: 0.8rem; 
+    border-radius: 6px; 
+  }
+}
+
+@media (max-width: 567px) {
+  
+  .sale-banner {
+    flex-direction: column; 
+    margin-top: 50px;
+  }
+
+  .sale-banner-container {
+    flex-direction: column; 
+    height: auto;
+    align-items: center;
+  }
+
+  .sale-banner-image {
+    width: 100%; 
+    margin-bottom: 20px;
+  }
+
+  .sale-banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem; 
+    padding-left: 0;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .sale-tag {
+    font-size: 50px; 
+  }
+
+  .highlight {
+    max-width: 100%; 
+    min-width: 100%; 
+    transform: none; 
+  }
+
+  .sale-text {
+    font-size: 1rem; 
+    max-width: 60%;
+    min-width: auto;
+  }
+
+  .sale-date {
+    font-size: 1.2rem; 
+  }
+
+  .terms {
+    font-size: 1rem; 
+    text-align: center;
+  }
+
+  .shop-now-btn {
+    padding: 10px 20px; 
+    font-size: 0.9rem;
+    border-radius: 8px; 
+  }
 }

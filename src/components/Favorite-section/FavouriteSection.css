@@ -88,3 +88,69 @@
 .arrow:hover {
   color: #ff7f00;
 }
+
+/* Responsive Styles */
+
+/* Tablet View */
+@media (max-width: 768px) {
+  .whole-container {
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
+
+  .youngs-favourite {
+    padding: 0px 50px; 
+    font-size: 20px;
+  }
+
+  .cards {
+    width: 80%; 
+    margin: 0 auto;
+  }
+
+  .cards-title {
+    font-size: 1.2rem;
+  }
+
+  .cards-description {
+    font-size: 0.9rem;
+  }
+
+  .arrow {
+    font-size: 28px;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 480px) {
+  .whole-container {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  .youngs-favourite {
+    padding: 0px 20px; 
+    font-size: 18px;
+  }
+
+  .cards-container {
+    gap: 10px; 
+  }
+
+  .cards {
+    width: 100%; 
+  }
+
+  .cards-title {
+    font-size: 1rem;
+  }
+
+  .cards-description {
+    font-size: 0.8rem;
+  }
+
+  .arrow {
+    font-size: 24px;
+    padding: 15px;
+  }
+}
