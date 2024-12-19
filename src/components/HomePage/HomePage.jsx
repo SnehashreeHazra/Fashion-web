@@ -4,6 +4,8 @@ import Brand from '../Brand/Brand'
 import ArrivalSection from '../Arrival-section/Arrival-section'
 import Banner2 from '../Banner2/Banner2'
 import Community from '../Community/Community'
+import Voucher from '../Voucher/Voucher'
+import FavouriteSection from '../Favorite-section/FavouriteSection'
 
 
 function HomePage() {
@@ -13,6 +15,8 @@ function HomePage() {
       <Brand />
       <ArrivalSection />
       <Banner2 />
+      <FavouriteSection />
+      <Voucher />
       <Community />
     </>
   )

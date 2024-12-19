@@ -1,0 +1,66 @@
+.voucher {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Left Section */
+.voucher-left {
+  flex: 1; 
+  max-width: 50%; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.voucher-title {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.voucher-description {
+  font-size: 1.2rem;
+  color: #7C7C7C;
+  width: 100%;
+  max-width: 50%;
+  min-width: 50%;
+  margin-bottom: 30px;
+}
+
+.small-images {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.small-img {
+  width: 100%;
+  min-width: 30%;
+  max-width: 30%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+/* Right Section */
+.voucher-right {
+  flex: 1; /* Takes up half the width */
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-img {
+  width: 100%;
+  max-width: 70%;
+  min-width: 70%;
+  height: 100%;
+  
+}

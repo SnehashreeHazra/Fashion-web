@@ -4,24 +4,23 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 40px 20px;
-  background-color: #f4f4f4; /* Light background color */
+  padding: 50px 50px;
+  background-color: #E5C643;
   text-align: center;
   border-radius: 10px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
 /* Text Section */
 .title {
   font-size: 2.5rem;
-  font-weight: bold;
-  color: #333;
+  font-weight: 900;
+  color: #fff;
   margin-bottom: 10px;
 }
 
 .description {
   font-size: 1.2rem;
-  color: #666;
+  color: #fff;
   margin-bottom: 20px;
 }
 
@@ -30,44 +29,42 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px; /* Space between input and button */
+  gap: 10px; 
   width: 100%;
-  max-width: 500px; /* Limit form width */
+  max-width: 500px; 
+  
 }
 
 .input-container {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   border: 1px solid #ccc;
   border-radius: 5px;
   overflow: hidden;
-  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  padding: 8px 20px;
+  background-color: #fff;
 }
 
 .subscribe-input {
-  flex: 1; /* Take up the available width */
-  padding: 10px 15px;
+  /* flex: 1;  */
+  /* padding: 10px 15px; */
   font-size: 1rem;
   border: none;
   outline: none;
 }
 
-.subscribe-input:focus {
-  border-color: #007bff; /* Highlight on focus */
-}
+
 
 .subscribe-button {
-  padding: 10px 20px;
-  font-size: 1rem;
-  font-weight: bold;
+  padding: 5px 20px;
+  font-size: 1.5rem;
+  font-weight: 500;
   color: #fff;
-  background-color: #000; /* Primary button color */
+  background-color: #000; 
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s;
 }
 
-.subscribe-button:hover {
-  background-color: #0056b3; /* Darker shade on hover */
-}
+

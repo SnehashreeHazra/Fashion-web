@@ -20,7 +20,7 @@ function Community() {
             placeholder="Add your email here"
             className="subscribe-input"
           />
-          <button className="subscribe-button">Send</button>
+          <button className="subscribe-button">SEND</button>
         </div>
       </div>
     </section>

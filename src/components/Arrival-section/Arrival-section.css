@@ -1,17 +1,10 @@
-.container{
-  /* margin-bottom: 50px; */
-  width: 100%;
-  max-width: 80%;
-  min-width: 80%;
-  margin: 0 auto;
-}
-
 
 .new-arrivals {
   position: relative;
   display: inline-block;
   font-size: 22px;
-  margin-left: 50px;
+  padding: 0px 100px;
+  /* margin-left: 50px; */
 }
 
 .new-arrivals h2{
@@ -35,9 +28,7 @@
 .card-container {
   margin-top: 50px;
   display: flex;
-  justify-content: space-around;
-  gap: 20px;
-  /* padding: 20px; */
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
@@ -45,7 +36,7 @@
   background-color: #fff;
   border-radius: 15px;
   overflow: hidden;
-  width: 30%;
+  width: 25%;
   text-align: center;
 }
 
