@@ -42,7 +42,7 @@ function Navbar() {
         </nav>
         <button className="signup-btn">SIGN UP</button>
 
-        {/* <div className="dropdown-icons">
+        <div className="dropdown-icons">
         <a href="#" className="dropdown-item">
               <img src={FacebookImage} alt="" />
             </a>
@@ -55,7 +55,7 @@ function Navbar() {
             <a href="#" className="dropdown-item">
               <img src={LinkedinImage} alt="" />
             </a>
-        </div> */}
+        </div>
       </div>
     </header>
   </div>

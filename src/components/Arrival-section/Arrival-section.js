@@ -3,6 +3,7 @@ import cardImage1 from "../../assets/card-image1.png";
 import cardImage2 from '../../assets/card-image2.png';
 import cardImage3 from '../../assets/card-image3.png';
 import './Arrival-section.css';
+import LeafImage from '../../assets/leaf.png'
 
 function ArrivalSection() {
   const cards = [
@@ -24,9 +25,10 @@ function ArrivalSection() {
   ]
   return (
     
-          <div className='container'>
+      <div className='container'>
       <div className="new-arrivals">
-          <h2>NEW ARRIVALS</h2>
+      <span>NEW ARRIVALS</span>
+      <img src={LeafImage} alt="Leaf Underline" className='underline' />
       </div>
       <div className='card-container'>
         {cards.map((card,index)=>(

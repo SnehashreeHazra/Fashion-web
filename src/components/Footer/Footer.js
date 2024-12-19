@@ -5,7 +5,7 @@ import Instagram from '../../assets/instagram.png'
 import Twitter from '../../assets/twitter.png'
 import Linkedin from '../../assets/linkedin.png'
 
-function Footer2() {
+function Footer() {
   return (
     <footer className='footer'>
          
@@ -64,4 +64,4 @@ function Footer2() {
   )
 }
 
-export default Footer2
+export default Footer

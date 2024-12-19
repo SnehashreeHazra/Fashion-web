@@ -5,29 +5,26 @@
 
 
 .youngs-favourite {
-  padding: 0px 100px;
+  padding-left: 100px;
   position: relative;
   display: inline-block;
-  font-size: 22px;
-  
-}
-
-.youngs-favourite h2{
+  font-size: 2rem;
   font-weight: 900;
+  text-transform: uppercase;
 }
 
-.youngs-favourite::after {
-  content: "";
+.youngs-favourite span {
+  position: relative;
+  z-index: 1;
+}
+
+.youngs-favourite .underline {
   position: absolute;
-  bottom: -1px; 
+  bottom: -4px; 
   right: 0;
-  width: 100%;
-  height: 1em; 
-  background-image: url('../../assets/leaf.png'); 
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right;
-  z-index: -1;
+  width: 30%; 
+  z-index: 0;
+  pointer-events: none; 
 }
 
 .cards-container {
@@ -99,8 +96,13 @@
   }
 
   .youngs-favourite {
-    padding: 0px 50px; 
-    font-size: 20px;
+    padding-left: 50px; 
+    font-size: 1.5rem; 
+    text-align: center; 
+  }
+
+  .youngs-favourite .underline {
+    width: 50%; 
   }
 
   .cards {
@@ -129,8 +131,12 @@
   }
 
   .youngs-favourite {
-    padding: 0px 20px; 
-    font-size: 18px;
+    padding-left: 20px; 
+    font-size: 1.25rem; 
+  }
+
+  .youngs-favourite .underline {
+    width: 70%; 
   }
 
   .cards-container {

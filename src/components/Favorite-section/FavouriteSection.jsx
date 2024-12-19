@@ -2,6 +2,7 @@ import React from 'react'
 import './FavouriteSection.css'
 import Image1 from '../../assets/favourite-img1.png'
 import Image2 from '../../assets/favourite-img2.png'
+import LeafImage from '../../assets/leaf.png'
 
 function FavouriteSection() {
   const items = [
@@ -20,7 +21,8 @@ function FavouriteSection() {
   return (
     <div className='whole-container'>
       <div className="youngs-favourite">
-          <h2>Young's Favourite</h2>
+      <span>Young's Favourite</span>
+      <img src={LeafImage} alt="Leaf Underline" className='underline' />
       </div>
       <div className='cards-container'>
         {items.map((card,index)=>(
